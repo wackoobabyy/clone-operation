@@ -133,3 +133,30 @@ img {
     align-items: center;
   }
 }
+
+/* Assignment-specific styles */
+.muted {
+  color: var(--muted);
+}
+.spec-list {
+  margin: 0.5rem 0 1.25rem;
+  padding-left: 1.25rem;
+}
+.code-block {
+  background: #0f172a;
+  color: #e6eef8;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, 'Segoe UI Mono', 'Roboto Mono', monospace;
+  font-size: 0.95rem;
+  border: 1px solid rgba(255,255,255,0.04);
+}
+
+.site-header h1 {
+  font-weight: 700;
+}
+
+.site-header .button {
+  margin-top: 1rem;
+}
